@@ -147,3 +147,30 @@ header{
 .about-me-head{
     left: 66%;
     width: 33%;}
+
+/*References section*/
+
+    .video-container{
+        margin: 15px;
+        background-color: #163635;
+        padding: 15px;
+        color: #cccccc;
+        border-radius: 15px;
+        line-height: 150%;
+        text-transform: uppercase;
+        /*float: right;*/
+        width: 90%;
+        margin: 30px 15px;
+
+        font-size: 120%;
+        position: absolute;
+        display: inline-block;
+        /*height: 350px;*/
+    
+    }
+
+    .video-container p{
+        font-size: 120%;
+        margin: 15px 0;
+        text-align: center;
+    }
