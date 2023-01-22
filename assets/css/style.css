@@ -17,7 +17,7 @@ h1, h2{
     font-family:'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing:4px;
-    color: blue;
+    color: #cccccc;
 }
 
 h2{ }
@@ -25,3 +25,42 @@ h2{ }
 header{
     background-color: #163635;
 }
+
+.logo-style{
+    font-weight: 300;
+}
+#logo{
+    float: left;
+    font-size: 400%;
+    margin: 15px;
+}
+
+#menu{
+    clear: left;
+    font-size: 150%;
+    bottom: 0;
+    overflow-x: hidden;
+}
+
+#menu li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+#menu a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: cccccc;
+    background-color: #163635;
+    padding: 10px;
+}
+
+#menu a:hover{
+    background-color: #41836D;
+}
+
+/*Introduction*/
+
+.home
