@@ -112,10 +112,27 @@
         </div>
     </section>
 
-    
+
 
     <!--Contact-->
     <section class="contact">
+    <form class="contact-form" method="post" action="https://www.youtube.com/watch?v=mo1hArT77JI" method="POST">
+        <h2>You can contact me here:</h2>
+        <label for="fname">First Name</label>
+        <input class="text-input" type="text" id="fname" name="first_name" required>
+        <label for="lname">Last Name</label>
+        <input class="text-input" type="text" id="lname" name="last_name" required>
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+        <label for="message">Message</label>
+        <input class="text-input" type="text" id="message" name="message_me">
+        <label for="subscription">You can subscribe me here:></label>
+        <input type="radio" id="subscription" value="subscripction" name="subscription_button">
+        <label for="subscription">No, thanks</label>
+        <input type="radio" id="subscription" value="subscripction" name="subscription_button" checked>
+        <input class="contact-button" type="submit" value="Submit">
+    </form>
+    <div id="green-image" class="green-screen-image green-screen-right"></div>
     </section>
 </div>
 <!--Footer-->
