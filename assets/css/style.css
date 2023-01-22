@@ -13,6 +13,10 @@ body{
     width: auto;
 }
 
+#wrapper{
+    min-height: calc(100vh - 200px);
+}
+
 h1, h2{
     font-family:'Barlow Condensed', sans-serif;
     text-transform: uppercase;
@@ -20,7 +24,6 @@ h1, h2{
     color: #cccccc;
 }
 
-h2{ }
 
 header{
     background-color: #163635;
@@ -63,4 +66,49 @@ header{
 
 /*Introduction*/
 
-.home
+.home{
+    position: relative;
+    height: 450px;
+
+}
+
+.about-me{
+    font-size: 120%;
+    margin-top: 15px;
+    position: absolute;
+    display: inline-block;
+    height: 450px;
+    background-color: #163635;
+    border-radius: 15px;
+}
+
+.about-me h2{
+    text-align: left;
+    padding: 15px;
+}
+
+.about-me p{
+    font-size: 120%;
+    padding: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.cover-image{
+    position: absolute;
+    height: 450px;
+}
+
+.about-me-head{
+    left: 66%;
+    width: 33%;
+}
+
+.right-cover-image{
+    width: 66%;
+}
+
+#selfie-image{
+    background: url('../images/gyulakunsagi.png') center center no-repeat;
+}
+
