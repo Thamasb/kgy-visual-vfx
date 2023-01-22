@@ -112,6 +112,15 @@ header{
 
 #selfie-image{
     background: url('../images/gyulakunsagi.png') center center no-repeat;
+    
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #163635;
+    border-width: 5px;
+    border-radius: 15%;
+    margin: 30px 15px;
 }
 
 
@@ -148,7 +157,8 @@ header{
 
 .about-me-head{
     left: 66%;
-    width: 33%;}
+    width: 33%;
+}
 
 /*References section*/
 
@@ -195,7 +205,7 @@ header{
         /*margin-top: 15px;*/
         position: absolute;
         display: inline-block;
-        height: 750px;
+        height: 450px;
         background-color: #163635;
         border-radius: 15px;
 
@@ -225,7 +235,16 @@ header{
     }
 
     #contact-image{
-        background: url('../images/green-sreen-hoto.jpeg') center center no-repeat;
+        background: url('../images/green-screen-photo.jpeg') center center no-repeat;
+
+        width: 300px;
+        height: 650px;
+        padding: 5px;
+        border-style: solid;
+        border-color: #163635;
+        border-width: 5px;
+        border-radius: 5%;
+        margin: 30px 15px;
     }
 
     .contact-green-image{
