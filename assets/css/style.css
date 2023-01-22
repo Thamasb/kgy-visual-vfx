@@ -13,9 +13,9 @@ body{
     width: auto;
 }
 
-#wrapper{
+/*#wrapper{
     min-height: calc(100vh - 200px);
-}
+}*/
 
 h1, h2{
     font-family:'Barlow Condensed', sans-serif;
@@ -32,6 +32,7 @@ header{
 .logo-style{
     font-weight: 300;
 }
+
 #logo{
     float: left;
     font-size: 400%;
@@ -70,18 +71,18 @@ header{
 
 .home{
     position: relative;
-    height: 450px;
-
+    height: 650px;
 }
 
 .about-me{
     font-size: 120%;
-    margin-top: 15px;
+    margin: 25px;
     position: absolute;
     display: inline-block;
-    height: 450px;
+    height: 550px;
     background-color: #163635;
     border-radius: 15px;
+    padding: 15px;
 }
 
 .about-me h2{
@@ -219,7 +220,7 @@ header{
     }
 
     .contact-me-head{
-        left: 82%;
+        left: 66%;
         width: 33%;
     }
 
@@ -237,7 +238,7 @@ header{
     #contact-image{
         background: url('../images/green-screen-photo.jpeg') center center no-repeat;
 
-        width: 300px;
+        width: 450px;
         height: 650px;
         padding: 5px;
         border-style: solid;
@@ -294,6 +295,8 @@ header{
     }
 
 /*Footer*/
+
+
 .social{
     text-align: center;
 }
@@ -316,4 +319,22 @@ footer {
     padding: 1em;
     text-align: center;
     margin-top: 15px;
+}
+@media screen and (max-width:420px){
+    .home{
+        position: relative;
+        display: inline;
+    }
+    .about-me{
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: fit-content;
+    }
+    .cover-image{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
 }
