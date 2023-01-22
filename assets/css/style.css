@@ -112,3 +112,38 @@ header{
     background: url('../images/gyulakunsagi.png') center center no-repeat;
 }
 
+
+/*Services*/
+
+.services{
+    position: relative;
+    height: 450px;
+    padding: 15px;
+
+}
+
+.content{
+    font-size: 120%;
+    margin-top: 15px;
+    position: absolute;
+    display: inline-block;
+    height: 350px;
+    background-color: #163635;
+    border-radius: 15px;
+}
+
+.content h2{
+    text-align: left;
+    padding: 15px;
+}
+
+.content p{
+    font-size: 120%;
+    padding: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.about-me-head{
+    left: 66%;
+    width: 33%;}
