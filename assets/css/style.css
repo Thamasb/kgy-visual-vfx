@@ -150,6 +150,12 @@ header{
 
 /*References section*/
 
+.references{
+    position: relative;
+    height: 1250px;
+    padding: 15px;
+
+}
     .video-container{
         margin: 15px;
         background-color: #163635;
@@ -172,4 +178,96 @@ header{
         font-size: 120%;
         margin: 15px 0;
         text-align: center;
+    }
+
+    /*Contact section*/
+
+
+    .contact{
+        position: relative;
+        height: 450px;
+    }
+
+    .contact-me{
+        font-size: 120%;
+        /*margin-top: 15px;*/
+        position: absolute;
+        display: inline-block;
+        height: 750px;
+        background-color: #163635;
+        border-radius: 15px;
+
+        margin: 30px 15px;
+        color: #cccccc;
+        max-width: 400px;
+        /*float: left;*/
+        padding: 15px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .contact-me-head{
+        left: 66%;
+        width: 33%;
+    }
+
+    .text-input{
+        width: 100%;
+        height: 35px;
+        margin: 5px 0 10px 0;
+        border: 0.5px solid;
+        border-radius: 5px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #contact-image{
+        background: url('../images/green-sreen-hoto.jpeg') center center no-repeat;
+    }
+
+    .contact-green-image{
+        position: absolute;
+        height: 450px;
+    }
+
+    .contact-green-right{
+        width: 66%;
+    }
+    /*
+    .contact-form{
+        margin: 30px 15px;
+        color: #cccccc;
+        background-color: #163635;
+        max-width: 400px;
+        float: left;
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 120%;
+        font-weight: bold;
+        letter-spacing: 3px;
+        height: 450px;
+
+        position: absolute;
+        display: inline-block;
+
+    } 
+*/
+    .contact-button{
+        margin: 15px 0;
+        background: none;
+        padding: 10px 15px;
+        font-size: 20px;
+        font-family: 'Barlow Condensed', sans-serif;
+        cursor: pointer;
+        background-color: #163635;
+        color: #cccccc;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+
+    .contact-button :hover{
+        background-color: #163635;
+        color: #cccccc;
     }
