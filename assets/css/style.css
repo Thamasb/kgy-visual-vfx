@@ -230,10 +230,11 @@ header{
         margin-bottom: 60px;
     }
 
-    .video-container p{
+    .video-container h3{
         font-size: 120%;
         margin: 15px 0;
         text-align: center;
+        letter-spacing: 4px;
     }
 
     /*Contact section*/
@@ -281,8 +282,10 @@ header{
 
     #contact-image{
         background: url('../images/green-screen-photo.jpeg') center center no-repeat;
-
-        width: 450px;
+        background-size: cover;
+        /*width: 450px;*/
+        width: 100%;
+        max-width: 450px;
         height: 650px;
         padding: 5px;
         border-style: solid;
