@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,6 +13,12 @@ body{
     color: black;
     background-color: #aacecc;
     width: auto;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /*#wrapper{
@@ -64,25 +72,30 @@ header{
 #menu a:hover{
     background-color: #41836D;
     border-radius: 45px;
-    padding: 2px;
+    /*padding: 2px;*/
 }
 
 /*Introduction*/
 
 .home{
     position: relative;
-    height: 650px;
+    /*height: 650px;*/
+    margin-bottom: 40px;
 }
 
 .about-me{
     font-size: 120%;
-    margin: 25px;
-    position: absolute;
-    display: inline-block;
-    height: 550px;
+    /*margin: 25px;*/
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    /*height: 550px;*/
     background-color: #163635;
+    margin: 0 25px;
+    display: block;
+    float: right;
     border-radius: 15px;
     padding: 15px;
+    color: #cccccc;
 }
 
 .about-me h2{
@@ -96,15 +109,18 @@ header{
     line-height: 20px;
     text-align: justify;
 }
+about-me p:last-child{
+    line-height: 1.4;
+}
 
 .cover-image{
-    position: absolute;
+    /*position: absolute;*/
     height: 450px;
 }
 
 .about-me-head{
-    left: 66%;
-    width: 33%;
+   /* left: 66%;
+    width: 33%;*/
 }
 
 .right-cover-image{
@@ -113,7 +129,6 @@ header{
 
 #selfie-image{
     background: url('../images/gyulakunsagi.png') center center no-repeat;
-    
     width: 300px;
     height: 300px;
     padding: 5px;
@@ -129,7 +144,7 @@ header{
 
 .services{
     position: relative;
-    height: 450px;
+    /*height: 450px;*/
     padding: 15px;
 
 }
