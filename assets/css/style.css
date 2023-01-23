@@ -118,10 +118,10 @@ about-me p:last-child{
     height: 450px;
 }
 
-.about-me-head{
-   /* left: 66%;
-    width: 33%;*/
-}
+/*.about-me-head{
+   left: 66%;
+    width: 33%;
+}*/
 
 .right-cover-image{
     width: 66%;
@@ -152,11 +152,12 @@ about-me p:last-child{
 .content{
     font-size: 120%;
     margin-top: 15px;
-    position: absolute;
+    /*position: absolute;*/
     display: inline-block;
     height: 350px;
     background-color: #163635;
     border-radius: 15px;
+    color: #cccccc;
 }
 
 .content h2{
@@ -167,20 +168,22 @@ about-me p:last-child{
 .content p{
     font-size: 120%;
     padding: 15px;
-    line-height: 20px;
+    /*line-height: 20px;*/
     text-align: justify;
+    line-height: 1.4;
 }
 
 .about-me-head{
-    left: 66%;
-    width: 33%;
+    /*left: 66%;*/
+    /*width: 33%;*/
+    max-width: calc (100% - 380px);
 }
 
 /*References section*/
 
 .references{
     position: relative;
-    height: 1250px;
+    /*height: 1250px;*/
     padding: 15px;
 
 }
@@ -194,12 +197,16 @@ about-me p:last-child{
         text-transform: uppercase;
         /*float: right;*/
         width: 90%;
-        margin: 30px 15px;
+        margin: 30px auto;
 
         font-size: 120%;
-        position: absolute;
-        display: inline-block;
+        /*position: absolute;*/
+        /*display: inline-block;*/
         /*height: 350px;*/
+    }
+
+    .video-container > * {
+        margin-bottom: 60px;
     }
 
     .video-container p{
