@@ -61,7 +61,7 @@ header{
 #menu li{
     display: inline-block;
     text-align: center;
-    width: 33%;
+    width: 32%;
 }
 
 #menu a{
@@ -180,7 +180,7 @@ header{
 .about-me-head{
     /*left: 66%;*/
     /*width: 33%;*/
-    max-width: calc (100% - 380px);
+    min-width: calc(100px - 320px);
 }
 
 /*References section*/
@@ -383,7 +383,7 @@ footer {
 
     section.services.clear{
         max-width: 90%;
-        margin: 0, auto;
+        margin: 0 auto;
     }
 
     .contact-me-head{
