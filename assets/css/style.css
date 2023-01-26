@@ -132,7 +132,7 @@ header{
 }
 
 #selfie-image{
-    background: url('../images/gyula-kunsagi.png') center center no-repeat;
+    background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,h_320,w_320/v1674747463/kgy-visual/gyula-kunsagi_ahlxoo.png) center center no-repeat;
     width: 300px;
     height: 300px;
     padding: 5px;
@@ -281,7 +281,7 @@ header{
     }
 
     #contact-image{
-        background: url('../images/green-screen-photo.jpeg') center center no-repeat;
+        background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,w_1125/v1674748199/kgy-visual/pexels-photo-9488225_sht5oj.jpg) center center no-repeat;
         background-size: cover;
         /*width: 450px;*/
         width: 100%;
