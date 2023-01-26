@@ -122,8 +122,8 @@ header {
 
 #selfie-image {
     background: url('../images/gyula-kunsagi.png') center center no-repeat;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     padding: 5px;
     border-style: solid;
     border-color: #163635;
@@ -242,7 +242,7 @@ header {
 }
 
 #contact-image {
-    background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,w_1125/v1674748199/kgy-visual/pexels-photo-9488225_sht5oj.jpg) center center no-repeat;
+    background: url('../images/green-screen-photo.jpeg') center center no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 450px;
