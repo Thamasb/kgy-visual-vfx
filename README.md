@@ -1,4 +1,4 @@
-# KGY VISUAL
+# KGY VISUAL ![KGY VISUAL](https://res.cloudinary.com/duxsycizt/image/upload/v1674768796/kgy-visual/responsive_c3wxvo.png)
 
 KGY VISUAL is a Visual Effect Artists website. The business owner and VFX Artist is Gyula Kunsagi, this website is built for him. On this wesite he introduce himself and the services what he can offer, present his references and gives the opportunity to contact him through the site.
 
@@ -60,26 +60,34 @@ Contact   | ![Contact](https://res.cloudinary.com/duxsycizt/image/upload/v167474
 - Header
     - Header conains the business name and a responsive navigation bar (menu)
     - The navigation bar has a hover effect and navigate in the website
+    ![Header](https://res.cloudinary.com/duxsycizt/image/upload/v1674758095/kgy-visual/header_wngbu5.png)
 
 - Home 
     - Contains a profile photo about the Visual Effect Artist 
     - A short introduction about the VFX Artist
+    ![Home](https://res.cloudinary.com/duxsycizt/image/upload/v1674747322/kgy-visual/pc-1scr_m0ggws.png)
 
 - Services
     - Text content that presents the services of the Visual Effect Artist and questions-answers
+    ![Services](https://res.cloudinary.com/duxsycizt/image/upload/v1674747321/kgy-visual/pc-2scr_i5x5ap.png)
 
 - References
     - Contains 3 YouTube video links made from the Visual Effect Artist and presented his YouTube channel
     - The autoplay is off
     - The visitors are able to play the video in the website or on YouTube
+    ![Reference](https://res.cloudinary.com/duxsycizt/image/upload/v1674747322/kgy-visual/pc-3scr_htuyuv.png)
+    ![Reference](https://res.cloudinary.com/duxsycizt/image/upload/v1674747322/kgy-visual/pc-4scr_hfuixb.png)
+    ![Reference](https://res.cloudinary.com/duxsycizt/image/upload/v1674747322/kgy-visual/pc-5scr_qwgcct.png)
 
 - Contact
     - Contains a photo which is refers to the video effect 
     - The customers or visitors are able to write a message on the contact form and they can follow the VFX Artist jobs thrue the subscribe button
     - The subscribe button default setting : No, thanks
+    ![Contact](https://res.cloudinary.com/duxsycizt/image/upload/v1674747321/kgy-visual/pc-6scr_at7iup.png)
 
 - Footer
     - The footer contains the business name and the relevant social media links
+    ![Footer](https://res.cloudinary.com/duxsycizt/image/upload/v1674758095/kgy-visual/footer_liq6wj.png)
 
 
 
@@ -134,8 +142,8 @@ Contact   | ![Contact](https://res.cloudinary.com/duxsycizt/image/upload/v167474
 
  ## Code validation
 
-- [W3C Markup Validator](https://validator.w3.org) used to validate the html file, no errors or warnings to show.
-- [The W3C CSS Validation Service](https://jigsaw.w3.org)  used to validate the CSS file, there were no error found.
+- [W3C Markup Validator](https://validator.w3.org) used to validate the html file, no errors or warnings to show. ![HTML Code](https://res.cloudinary.com/duxsycizt/image/upload/v1674769677/kgy-visual/w3htmlvalidator_e5vojz.png)
+- [The W3C CSS Validation Service](https://jigsaw.w3.org)  used to validate the CSS file, there were no error found. ![CSS Code](https://res.cloudinary.com/duxsycizt/image/upload/v1674769677/kgy-visual/w3csccvalidator_kfockv.png)
 
 
 ## Accessibility, responiveness, layout
@@ -167,6 +175,21 @@ Contact   | ![Contact](https://res.cloudinary.com/duxsycizt/image/upload/v167474
     -
     -
     -
+- Common Elements Testing
+    - Navigation bar (menu)
+        - The 'Home', 'Reference', 'Contact' elements links inside to the relevant side of the page.
+        - Hover effect highliting the link and helps to navigate easier.
+    - References
+        - The three embed Youtube videos autoplay are off pisition.
+        - Easy to use and play the videos inside the website and there is an option to play it in YouTube.
+    - Contact
+        - The forms are working corretly
+        - Required to fill the 'First Name' 'Last Name' 'Email Address' fields.
+        - The 'Email Address' field required to use the '@' character.
+        - The 'Message' field is an option for the customers.
+        - The 'Subscribe' button main setting is 'No, thanks'
+    - Footer
+        - Clicking on the social media links will open the specific website on a new tab.
 
 # The Finished Website
 
