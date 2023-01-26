@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -12,8 +13,8 @@ html, body{
     box-sizing: border-box;
 }
 
-body{
-    font-family:'Barlow Condensed', sans-serif;
+body {
+    font-family: 'Barlow Condensed', sans-serif;
     color: black;
     background-color: #aacecc;
     width: auto;
@@ -25,46 +26,42 @@ body{
     clear: both;
 }
 
-/*#wrapper{
-    min-height: calc(100vh - 200px);
-}*/
-
-h1, h2{
-    font-family:'Barlow Condensed', sans-serif;
+h1,
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
-    letter-spacing:4px;
+    letter-spacing: 4px;
     color: #cccccc;
 }
 
-
-header{
+header {
     background-color: #163635;
 }
 
-.logo-style{
+.logo-style {
     font-weight: 300;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 400%;
     margin: 15px;
 }
 
-#menu{
+#menu {
     clear: left;
     font-size: 150%;
     bottom: 0;
     overflow-x: hidden;
 }
 
-#menu li{
+#menu li {
     display: inline-block;
     text-align: center;
     width: 32%;
 }
 
-#menu a{
+#menu a {
     display: inline-block;
     width: 100%;
     text-decoration: none;
@@ -73,26 +70,19 @@ header{
     padding: 10px;
 }
 
-#menu a:hover{
+#menu a:hover {
     background-color: #41836D;
     border-radius: 45px;
-    /*padding: 2px;*/
 }
 
 /*Introduction*/
-
-.home{
+.home {
     position: relative;
-    /*height: 650px;*/
     margin-bottom: 40px;
 }
 
-.about-me{
+.about-me {
     font-size: 120%;
-    /*margin: 25px;*/
-    /*position: absolute;*/
-    /*display: inline-block;*/
-    /*height: 550px;*/
     background-color: #163635;
     margin: 0 25px;
     display: block;
@@ -102,37 +92,36 @@ header{
     color: #cccccc;
 }
 
-.about-me h2{
+.about-me h2 {
     text-align: left;
     padding: 15px;
 }
 
-.about-me p{
+.about-me p {
     font-size: 120%;
     padding: 15px;
     line-height: 20px;
     text-align: justify;
 }
-.about-me p:last-child{
+
+.about-me p:last-child {
     line-height: 1.4;
 }
 
-.cover-image{
-    /*position: absolute;*/
+.cover-image {
     height: 450px;
 }
 
-.about-me-head{
-   /*left: 66%;*/
+.about-me-head {
     width: 66%;
 }
 
-.right-cover-image{
+.right-cover-image {
     width: 66%;
 }
 
-#selfie-image{
-    background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,h_320,w_320/v1674747463/kgy-visual/gyula-kunsagi_ahlxoo.png) center center no-repeat;
+#selfie-image {
+    background: url('../images/gyula-kunsagi.png') center center no-repeat;
     width: 300px;
     height: 300px;
     padding: 5px;
@@ -143,63 +132,51 @@ header{
     margin: 30px 15px;
 }
 
-
 /*Services*/
-
-.services{
+.services {
     position: relative;
-    /*height: 450px;*/
     padding: 15px;
-
 }
 
-.content{
+.content {
     font-size: 120%;
     margin-top: 15px;
-    /*position: absolute;*/
     display: inline-block;
-    /*height: 350px;*/
     background-color: #163635;
     border-radius: 15px;
     color: #cccccc;
 }
 
-.content h2{
+.content h2 {
     text-align: left;
     padding: 15px;
 }
 
-.content p{
+.content p {
     font-size: 120%;
     padding: 15px;
-    /*line-height: 20px;*/
     text-align: justify;
     line-height: 1.4;
 }
 
-.about-me-head{
-    /*left: 66%;*/
-    /*width: 33%;*/
+.about-me-head {
     min-width: calc(100px - 320px);
 }
 
 /*References section*/
-
-.references{
+.references {
     position: relative;
-    /*height: 1250px;*/
     padding: 15px;
-
 }
 
-.iframe-container{
+.iframe-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-.iframe-container iframe{
+.iframe-container iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -207,148 +184,106 @@ header{
     height: 100%;
 }
 
+.video-container {
+    margin: 15px;
+    background-color: #163635;
+    padding: 15px;
+    color: #cccccc;
+    border-radius: 15px;
+    line-height: 150%;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 120%;
+}
 
+.video-container>* {
+    margin-bottom: 60px;
+}
 
-    .video-container{
-        margin: 15px;
-        background-color: #163635;
-        padding: 15px;
-        color: #cccccc;
-        border-radius: 15px;
-        line-height: 150%;
-        text-transform: uppercase;
-        /*float: right;*/
-        width: 90%;
-        margin: 30px auto;
-        font-size: 120%;
-        /*position: absolute;*/
-        /*display: inline-block;*/
-        /*height: 350px;*/
-    }
+.video-container h3 {
+    font-size: 120%;
+    margin: 15px 0;
+    text-align: center;
+    letter-spacing: 4px;
+}
 
-    .video-container > * {
-        margin-bottom: 60px;
-    }
+/*Contact section*/
+.contact {
+    position: relative;
+}
 
-    .video-container h3{
-        font-size: 120%;
-        margin: 15px 0;
-        text-align: center;
-        letter-spacing: 4px;
-    }
+.contact-me {
+    font-size: 120%;
+    background-color: #163635;
+    border-radius: 15px;
+    margin: 30px 15px;
+    color: #cccccc;
+    max-width: 400px;
+    float: right;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 
-    /*Contact section*/
+.contact-me-head {
+    max-width: 445px;
+}
 
+.text-input {
+    width: 100%;
+    height: 35px;
+    margin: 5px 0 10px 0;
+    border: 0.5px solid;
+    border-radius: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-    .contact{
-        position: relative;
-        /*height: 450px;*/
-    }
+#contact-image {
+    background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,w_1125/v1674748199/kgy-visual/pexels-photo-9488225_sht5oj.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 450px;
+    height: 650px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #163635;
+    border-width: 5px;
+    border-radius: 5%;
+    margin: 30px 15px;
+}
 
-    .contact-me{
-        font-size: 120%;
-        /*margin-top: 15px;*/
-        /*position: absolute;*/
-        /*display: inline-block;*/
-        /*height: 450px;*/
-        background-color: #163635;
-        border-radius: 15px;
+.contact-green-right {
+    width: 66%;
+}
 
-        margin: 30px 15px;
-        color: #cccccc;
-        max-width: 400px;
-        float: right;
-        padding: 15px;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+.contact-button {
+    margin: 15px 0;
+    background: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+    background-color: #163635;
+    color: #cccccc;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid;
+}
 
-    .contact-me-head{
-        /*left: 66%;*/
-        /*width: 33%;*/
-        max-width: 445px;
-    }
-
-    .text-input{
-        width: 100%;
-        height: 35px;
-        margin: 5px 0 10px 0;
-        border: 0.5px solid;
-        border-radius: 5px;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    #contact-image{
-        background: url(https://res.cloudinary.com/duxsycizt/image/upload/c_limit,w_1125/v1674748199/kgy-visual/pexels-photo-9488225_sht5oj.jpg) center center no-repeat;
-        background-size: cover;
-        /*width: 450px;*/
-        width: 100%;
-        max-width: 450px;
-        height: 650px;
-        padding: 5px;
-        border-style: solid;
-        border-color: #163635;
-        border-width: 5px;
-        border-radius: 5%;
-        margin: 30px 15px;
-    }
-
-    /*.contact-green-image{
-        position: absolute;
-        height: 450px;
-    }*/
-
-    .contact-green-right{
-        width: 66%;
-    }
-    /*
-    .contact-form{
-        margin: 30px 15px;
-        color: #cccccc;
-        background-color: #163635;
-        max-width: 400px;
-        float: left;
-        padding: 15px;
-        border-radius: 15px;
-        font-size: 120%;
-        font-weight: bold;
-        letter-spacing: 3px;
-        height: 450px;
-
-        position: absolute;
-        display: inline-block;
-
-    } 
-*/
-    .contact-button{
-        margin: 15px 0;
-        background: none;
-        padding: 10px 15px;
-        font-size: 20px;
-        font-family: 'Barlow Condensed', sans-serif;
-        cursor: pointer;
-        background-color: #163635;
-        color: #cccccc;
-        display: block;
-        border-radius: 10px;
-        border: 1px solid;
-    }
-
-    .contact-button :hover{
-        background-color: #163635;
-        color: #cccccc;
-    }
+.contact-button :hover {
+    background-color: #163635;
+    color: #cccccc;
+}
 
 /*Footer*/
-
-
-.social{
+.social {
     text-align: center;
 }
 
-.social > li{
+.social>li {
     display: inline;
 }
 
@@ -360,38 +295,38 @@ header{
 
 footer {
     position: relative;
-    /*height: 80px;*/
     background-color: #163635;
-    clear: both;    
+    clear: both;
     border: none;
     padding: 1em;
     text-align: center;
     margin-top: 15px;
 }
 
-@media screen and (max-width:992px){
-    .about-me-head{
+@media screen and (max-width:992px) {
+    .about-me-head {
         float: none;
         max-width: 90%;
     }
-    section#home{
+
+    section#home {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
 
-    section.services.clear{
+    section.services.clear {
         max-width: 90%;
         margin: 0 auto;
     }
 
-    .contact-me-head{
+    .contact-me-head {
         float: none;
         max-width: 90%;
     }
 
-    section#contact-me{
+    section#contact-me {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -399,21 +334,15 @@ footer {
     }
 }
 
-
-@media screen and (max-width:420px){
-    /*.home{
-        position: relative;
-        display: inline;
-    }*/
-    .about-me{
+@media screen and (max-width:420px) {
+    .about-me {
         position: relative;
         width: 100%;
-       /* left: 0;*/
         height: fit-content;
     }
-    .cover-image{
+
+    .cover-image {
         position: relative;
         width: 100%;
-        /*left: 0;*/
     }
 }
