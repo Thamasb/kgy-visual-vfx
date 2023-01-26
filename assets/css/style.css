@@ -293,6 +293,10 @@ header {
     margin: 1%;
 }
 
+.social i:hover {
+    background-color: #41836D;   
+}
+
 footer {
     position: relative;
     background-color: #163635;
