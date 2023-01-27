@@ -26,8 +26,7 @@ body {
     clear: both;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -294,7 +293,8 @@ header {
 }
 
 .social i:hover {
-    background-color: #41836D;   
+    background-color: #41836D;
+    border-radius: 5px;
 }
 
 footer {
