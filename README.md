@@ -293,7 +293,7 @@ You can visit the deployeded website [here](https://thamasb.github.io/kgy-visual
 
 # Deployment
 
-This website was developed using [GitPod](https://gitpod.io/workspaces) which was then committed and pushed to GitHub using the GitPod terminal.
+This website was developed using [GitPod](https://gitpod.io/workspaces) which was then committed and pushed to [GitHub.com](https://github.com/) using the [GitPod](https://gitpod.io/workspaces) terminal.
 
 You can clone or forked this repository from [GitHub.com](https://github.com/) to make a local copy.
 
@@ -308,7 +308,7 @@ You can clone or forked this repository from [GitHub.com](https://github.com/) t
 
 
 #### [Forking](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
-1. In the File menu on [GitHub.com](https://github.com/)(top of the repostory) click to the 'Setting' button.
+1. In the File menu on [GitHub.com](https://github.com/) (top of the repostory) click to the 'Setting' button.
 2. At the left side of the page in the 'Genereal" menu click 'Pages'.
 3. Under Branch click the dropdown menu called 'None' and select 'main' / 'Master Branch'
 4. Click 'Save'
@@ -335,4 +335,4 @@ The simple is better.
  - [Gyula Kunsagi VFX Artist](https://www.youtube.com/@gyulakunsagi5265)
  - [Code Institute](https://codeinstitute.net/ie/)
  - [YouTube - tutorials ](https://www.youtube.com/)
- - [Slack Community](https://slack.com/intl/en-ie/)
+ - [Slack Community](https://slack.com/intl/en-ie/) 
